@@ -105,8 +105,4 @@ const getRandomWord = () => {
   return fiveLetterWords[index];
 };
 
-export const checkUserAnswer = (answer: string) => {
-  fiveLetterWords.includes(answer)
-}
-
 export const randomWord = getRandomWord();

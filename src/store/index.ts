@@ -7,7 +7,7 @@ interface State {
 }
 
 export const userTries = create<State>((set) => ({
- try: 0,
+  try: 0,
   increaseTry: () => set((state) => ({ try: state.try + 1 })),
   resetTries: () => set(() => ({ try: 0 })),
 }));
